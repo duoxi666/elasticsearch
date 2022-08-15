@@ -1,0 +1,15 @@
+spring:
+  devtools:
+    restart:
+      enabled: true  #设置开启热部署
+      additional-paths: src/main/java #重启目录
+      exclude: WEB-INF/**
+  thymeleaf:
+    cache: false
+
+  elasticsearch:
+    rest:
+      uris: 192.168.0.14:9200
+server:
+  port: 8082
+
