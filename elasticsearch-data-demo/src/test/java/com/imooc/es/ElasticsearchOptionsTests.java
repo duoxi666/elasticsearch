@@ -39,7 +39,7 @@ public class ElasticsearchOptionsTests {
         product.setDescription("小熊饼干真好吃");
         product.setPrice(2.0);
         product.setCreateDate(new Date());
-        elasticsearchOperations.save( product);
+        elasticsearchOperations.save(product);
     }
 
     /**
